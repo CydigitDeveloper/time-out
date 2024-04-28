@@ -518,8 +518,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4289306222
+  m_fontColor: {r: 0.43137255, g: 0.61960787, b: 0.6627451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1265,7 +1265,7 @@ GameObject:
   - component: {fileID: 462023822}
   - component: {fileID: 462023821}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1278,16 +1278,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462023819}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.11136488, y: 0.095411636, z: -0.50686806, w: 0.8494583}
+  m_LocalPosition: {x: 0, y: 0, z: -4.4282002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1692416431}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: -5.306, y: 16.032, z: -62.396}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 4, y: -12}
   m_SizeDelta: {x: 180, y: 36}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &462023821
@@ -1340,7 +1340,7 @@ GameObject:
   - component: {fileID: 498443762}
   - component: {fileID: 498443761}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,7 +1385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2b08cfda062e08343ab4f9448e196cc2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d162d84d208229a4aa5743c0b870c6b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3728,7 +3728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3c75aba71a3e00e488b927c14f4a1795, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d583604a3a2848d4aa109396fce5dc20, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4827,7 +4827,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 554.2, y: -488}
+  m_AnchoredPosition: {x: 547.1, y: -488}
   m_SizeDelta: {x: 177.9441, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2102979684
