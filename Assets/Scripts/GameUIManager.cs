@@ -7,7 +7,9 @@ public class GameUIManager : MonoBehaviour
 {
     public GameObject menuPanel;
     public GameObject apocalypsesCard;
+    public GameObject mainGameAsset;
     public ApocalypsesManager apocalypsesManager;
+    public AlienSpawner ailenSpawner;
 
     public void AnyClick()
     {
@@ -28,6 +30,13 @@ public class GameUIManager : MonoBehaviour
 
     public void StartButton()
     {
-        SceneManager.LoadScene(apocalypsesManager.miniGameIndex);
+        apocalypsesCard.SetActive(false);
+        apocalypsesManager.apocalypsesScene.SetActive(true);
+        mainGameAsset.SetActive(false);
+
+        if (apocalypsesManager.id == 1)
+        {
+            ailenSpawner.enabled = true;
+        }
     }
 }

@@ -123,55 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &163787410
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 163787411}
-  - component: {fileID: 163787412}
-  m_Layer: 0
-  m_Name: ApocalypsesCard (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &163787411
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163787410}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1101135468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &163787412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163787410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5c1dbc38dcf9874f83ec20facc04941, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apocalypses:
-    apocalypsesImage: {fileID: -2413806693520163455, guid: 0503c86a29e7d92429fce4f8e73d8a1e, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
 --- !u!1 &167933361
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,59 +168,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: 56fe4a4fa2e6ba54082dd75af5433caf, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
---- !u!1 &240013281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 240013282}
-  - component: {fileID: 240013283}
-  m_Layer: 0
-  m_Name: ApocalypsesCard (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &240013282
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240013281}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1101135468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &240013283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240013281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5c1dbc38dcf9874f83ec20facc04941, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: 500e72b3114d8e14eaf7d7f842ef4dcd, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
+    apocalypsesId: 1
+    apocalypsesImage: {fileID: 21300000, guid: a4419373b54528746a92d180d5ff86f8, type: 3}
+    apocalypsesName: LIFE OF MILLIONS, IN YOUR HANDS
+    apocalypsesDescription: Stop the nuclear war before it happens!
+    apocalypsesPrefab: {fileID: 1056148307}
 --- !u!1 &260420417
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &260420418
 RectTransform:
   m_ObjectHideFlags: 0
@@ -428,8 +331,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!95 &260420423
 Animator:
@@ -777,7 +686,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 1b8420e507a2a4341a2da039e8d178ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -797,12 +706,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387513259}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &404574568
 GameObject:
@@ -958,7 +867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &442958820
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1096,8 +1005,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 1
 --- !u!95 &442958825
 Animator:
@@ -1156,8 +1071,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34, y: -75}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 32.5, y: -70}
+  m_SizeDelta: {x: 145, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &445426897
 MonoBehaviour:
@@ -1235,7 +1150,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1448,10 +1363,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: b4f8a36cd7f18de48a92f94a54e467e4, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
+    apocalypsesId: 1
+    apocalypsesImage: {fileID: 21300000, guid: 8279fd4a373b4384c87d2ea7cba1e52e, type: 3}
+    apocalypsesName: DEVASTATING LIFE
+    apocalypsesDescription: The people need your help now.
+    apocalypsesPrefab: {fileID: 1056148307}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,12 +1453,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656347857
 GameObject:
@@ -1825,12 +1741,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871563024}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &871563026
 MonoBehaviour:
@@ -1846,7 +1762,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 1922109034}
   apocalypsesCard: {fileID: 7813854189541404649}
-  apocalypsesManager: {fileID: 0}
+  mainGameAsset: {fileID: 1518850478}
+  apocalypsesManager: {fileID: 1811394418}
+  ailenSpawner: {fileID: 1019572146}
 --- !u!1 &874313002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,7 +1785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &874313003
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2005,8 +1923,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 1
 --- !u!95 &874313008
 Animator:
@@ -2171,6 +2095,111 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1019572146 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1002101355812221926, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+  m_PrefabInstance: {fileID: 1056148306}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f58ba7e9c734f47992164bb708daff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1056148306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1002101355812221926, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002101355812221926, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: aliensCounter
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1032539497361634063, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422397262666103553, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8805674877749096798, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_Name
+      value: MiniGame1Asset
+      objectReference: {fileID: 0}
+    - target: {fileID: 8805674877749096798, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9048794543775818516, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: alienSpawner
+      value: 
+      objectReference: {fileID: 1019572146}
+    - target: {fileID: 9048794543775818516, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: mainGameAsset
+      value: 
+      objectReference: {fileID: 1518850478}
+    - target: {fileID: 9048794543775818516, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: miniGame1Asset
+      value: 
+      objectReference: {fileID: 1056148307}
+    - target: {fileID: 9048794543775818516, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+      propertyPath: apocalypsesManager
+      value: 
+      objectReference: {fileID: 1811394418}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+--- !u!1 &1056148307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8805674877749096798, guid: d6c4ad588ae433947bd91349ab1181f5, type: 3}
+  m_PrefabInstance: {fileID: 1056148306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1101135467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,7 +2224,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101135467}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2205,13 +2234,7 @@ Transform:
   - {fileID: 1660192041}
   - {fileID: 1320624469}
   - {fileID: 1592840123}
-  - {fileID: 240013282}
-  - {fileID: 1752732409}
-  - {fileID: 163787411}
-  - {fileID: 2018838398}
-  - {fileID: 1205088407}
-  - {fileID: 2017669930}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1109479344
 GameObject:
@@ -2233,7 +2256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1109479345
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2371,8 +2394,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!95 &1109479350
 Animator:
@@ -2395,55 +2424,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1205088406
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1205088407}
-  - component: {fileID: 1205088408}
-  m_Layer: 0
-  m_Name: ApocalypsesCard (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1205088407
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205088406}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1101135468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1205088408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205088406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5c1dbc38dcf9874f83ec20facc04941, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: b4f8a36cd7f18de48a92f94a54e467e4, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
 --- !u!1 &1256495865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2464,7 +2444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1256495866
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2602,8 +2582,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!95 &1256495871
 Animator:
@@ -2803,10 +2789,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: 0abe7d9e4537bd04a9dea1936ece340f, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
+    apocalypsesId: 1
+    apocalypsesImage: {fileID: 21300000, guid: 56fe4a4fa2e6ba54082dd75af5433caf, type: 3}
+    apocalypsesName: AI UPRISING? WOW.
+    apocalypsesDescription: AI uprising is getting more serious by day, something
+      needs to be done.
+    apocalypsesPrefab: {fileID: 1056148307}
 --- !u!1 &1422808728
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,7 +2815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1422808729
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2965,8 +2953,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!95 &1422808734
 Animator:
@@ -3065,7 +3059,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3084,7 +3078,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 954594425}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3111,7 +3105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1525071479
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3249,8 +3243,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 1
 --- !u!95 &1525071484
 Animator:
@@ -3297,12 +3297,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587644906}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1588919782
 GameObject:
@@ -3483,10 +3483,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: b4f8a36cd7f18de48a92f94a54e467e4, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
+    apocalypsesId: 1
+    apocalypsesImage: {fileID: 21300000, guid: 69a9679e0a281ab438bda26ad11e6bf8, type: 3}
+    apocalypsesName: EARTH UNDER ATTACK
+    apocalypsesDescription: Our planet has been visited by some non-friendly beings!
+    apocalypsesPrefab: {fileID: 1056148307}
+--- !u!1 &1616896337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1616896338}
+  m_Layer: 0
+  m_Name: MainGameAsset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1616896338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616896337}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1518850482}
+  - {fileID: 387513261}
+  - {fileID: 519420032}
+  - {fileID: 2134705887}
+  - {fileID: 1101135468}
+  - {fileID: 1811394419}
+  - {fileID: 871563025}
+  - {fileID: 2124204608}
+  - {fileID: 1587644907}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1660192040
 GameObject:
   m_ObjectHideFlags: 0
@@ -3532,10 +3573,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: 4ef67c39cf12412429f14818ac4bc217, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
+    apocalypsesId: 1
+    apocalypsesImage: {fileID: 21300000, guid: 21399dbcf5d66da44bc3777fe0b190ab, type: 3}
+    apocalypsesName: METEORS COMING!!
+    apocalypsesDescription: There is only one way to stop them...
+    apocalypsesPrefab: {fileID: 1056148307}
 --- !u!1 &1692416430
 GameObject:
   m_ObjectHideFlags: 0
@@ -3573,55 +3615,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 295, y: 295}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1752732408
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1752732409}
-  - component: {fileID: 1752732410}
-  m_Layer: 0
-  m_Name: ApocalypsesCard (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1752732409
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1752732408}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1101135468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1752732410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1752732408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5c1dbc38dcf9874f83ec20facc04941, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: b4f8a36cd7f18de48a92f94a54e467e4, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
 --- !u!1 &1811394417
 GameObject:
   m_ObjectHideFlags: 0
@@ -3651,10 +3644,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83778ceeaeff8ae429da2bd4e7c5ebc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
   apocalypsesImage: {fileID: 6614669646645722704}
   nameText: {fileID: 447144977716941561}
   descriptionText: {fileID: 6400922578908408650}
-  miniGameIndex: 0
+  apocalypsesScene: {fileID: 0}
+  LastError: {fileID: 0}
 --- !u!4 &1811394419
 Transform:
   m_ObjectHideFlags: 0
@@ -3663,12 +3658,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811394417}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1827779254
 GameObject:
@@ -3681,7 +3676,6 @@ GameObject:
   - component: {fileID: 1827779255}
   - component: {fileID: 1827779257}
   - component: {fileID: 1827779256}
-  - component: {fileID: 1827779258}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -3746,27 +3740,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827779254}
   m_CullTransparentMesh: 1
---- !u!95 &1827779258
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827779254}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b3b5d576ed90534a845ce3ced0d7e88, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1922109034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3863,7 +3836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1964837848
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4001,8 +3974,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!95 &1964837853
 Animator:
@@ -4025,104 +4004,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &2017669929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2017669930}
-  - component: {fileID: 2017669931}
-  m_Layer: 0
-  m_Name: ApocalypsesCard (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2017669930
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017669929}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1101135468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2017669931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017669929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5c1dbc38dcf9874f83ec20facc04941, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: b4f8a36cd7f18de48a92f94a54e467e4, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
---- !u!1 &2018838397
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2018838398}
-  - component: {fileID: 2018838399}
-  m_Layer: 0
-  m_Name: ApocalypsesCard (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2018838398
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2018838397}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1101135468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2018838399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2018838397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5c1dbc38dcf9874f83ec20facc04941, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  apocalypses:
-    apocalypsesImage: {fileID: 21300000, guid: b4f8a36cd7f18de48a92f94a54e467e4, type: 3}
-    apocalypsesName: fhyjyku
-    apocalypsesDescription: "kukul\u0131lll"
-    apocalypsesIndex: 0
 --- !u!1 &2054833919
 GameObject:
   m_ObjectHideFlags: 0
@@ -4159,7 +4040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1726.6, y: 58}
+  m_AnchoredPosition: {x: 1726.6016, y: 58}
   m_SizeDelta: {x: 62, y: 62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2054833921
@@ -4264,7 +4145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2084195840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4402,8 +4283,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!95 &2084195845
 Animator:
@@ -4446,7 +4333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2087404667
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4584,8 +4471,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f1de279d5d744896d30f519e70bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apocalypsesCards: []
+  apocalypsesCards:
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!95 &2087404672
 Animator:
@@ -4628,7 +4521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2089314757
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4767,10 +4660,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apocalypsesCards:
-  - {fileID: 240013283}
-  - {fileID: 2018838399}
-  - {fileID: 2017669931}
+  - {fileID: 167933363}
+  - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 1
 --- !u!95 &2089314762
 Animator:
@@ -4927,6 +4823,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102979682}
   m_CullTransparentMesh: 1
+--- !u!1001 &2121136919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135423520446138851, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4017397008145443146, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_Name
+      value: MiniGame2Asset
+      objectReference: {fileID: 0}
+    - target: {fileID: 4017397008145443146, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cc6b00a2b21041942af774684ac8f599, type: 3}
 --- !u!1 &2124204605
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,12 +4945,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124204605}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2134705886
 GameObject:
@@ -5020,12 +4977,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134705886}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1616896338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2134705888
 MonoBehaviour:
@@ -5039,6 +4996,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70505ecac22d95f4ab7ac6922b2ce8d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Errors:
+  - {fileID: 2146629420}
+  - {fileID: 260420417}
+  - {fileID: 1256495865}
+  - {fileID: 1964837847}
+  - {fileID: 442958819}
+  - {fileID: 874313002}
+  - {fileID: 2089314756}
+  - {fileID: 1525071478}
+  - {fileID: 2084195839}
+  - {fileID: 1109479344}
+  - {fileID: 2087404666}
+  - {fileID: 1422808728}
 --- !u!1 &2143627964
 GameObject:
   m_ObjectHideFlags: 0
@@ -5075,8 +5045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212.2, y: -75}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 207.49998, y: -70}
+  m_SizeDelta: {x: 145, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2143627966
 MonoBehaviour:
@@ -5147,14 +5117,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+  m_Color: {r: 0.039215688, g: 0.1764706, b: 0.20784314, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5193,7 +5163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2146629421
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5332,10 +5302,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apocalypsesCards:
-  - {fileID: 1660192042}
-  - {fileID: 163787412}
+  - {fileID: 167933363}
   - {fileID: 515506130}
+  - {fileID: 1660192042}
+  - {fileID: 1320624470}
+  - {fileID: 1592840124}
   apocalypsesCard: {fileID: 7813854189541404649}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!114 &2146629426
 MonoBehaviour:
@@ -5351,6 +5324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   apocalypsesCards: []
   apocalypsesCard: {fileID: 0}
+  apocalypsesManager: {fileID: 0}
   isMirror: 0
 --- !u!95 &2146629427
 Animator:
@@ -5445,8 +5419,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5581,8 +5555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: 69.82654}
-  m_SizeDelta: {x: 200, y: 40.3469}
+  m_AnchoredPosition: {x: 120, y: 69.82654}
+  m_SizeDelta: {x: 320, y: 40.3469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3643213020293197027
 MonoBehaviour:
@@ -5604,7 +5578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9d11c1f95bf1c334780bc1a410889ed9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5680,8 +5654,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5836,12 +5810,6 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 519420032}
-  - {fileID: 387513261}
-  - {fileID: 1587644907}
-  - {fileID: 1518850482}
-  - {fileID: 2124204608}
-  - {fileID: 871563025}
-  - {fileID: 1811394419}
-  - {fileID: 1101135468}
-  - {fileID: 2134705887}
+  - {fileID: 1616896338}
+  - {fileID: 1056148306}
+  - {fileID: 2121136919}
